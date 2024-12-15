@@ -1,0 +1,33 @@
+Data Source:
+
+Origin:
+The data is sourced from the following website:
+https://networkrepository.com/socfb-wosn-friends.php
+
+Documentation:
+- The dataset is part of the Network Repository, a collection of network datasets. 
+This dataset represents a Facebook (FB) friendship network originally used for research 
+in analyzing the structure of online social networks.
+
+Format:
+- The file used is an edge list (a text file) listing pairs of users who are friends.
+- This format is a simple, whitespace-separated pairs of integers representing user IDs.
+
+Accessing the Data:
+- The data was downloaded directly from the provided URL.
+- The file `graph_nodes.txt` is placed locally in the same directory.
+- No API requests were necessary.
+- Caching: No special caching was used. The file is static and stored locally.
+
+Data Summary:
+- This dataset contains pairs of user IDs, representing friendships.
+- Each line: user1 user2
+- The graph typically can have thousands of nodes (users) and tens of thousands of edges (friendships).
+- Variables: 
+  - user_id_1 (integer)
+  - user_id_2 (integer)
+  - Flag/Weight
+  - Timestamp 
+  
+The dataset does not explicitly contain other attributes like profile links, names, or user details. 
+
